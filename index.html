@@ -98,14 +98,16 @@
       </nav>
     </div>
 
-    <div class="container">
-      <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#home">
+    <div class="container-fluid mt-3">
+      <ul class="nav nav-pills justify-content-center" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#view1">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft" viewBox="0 0 16 16">
             <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
           </svg>
         </a></li>
-        <li><a data-toggle="tab" href="#menu1">
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#view2">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square" viewBox="0 0 16 16">
             <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
           </svg>
@@ -113,117 +115,112 @@
       
       </ul>
       <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-          <h3>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft" viewBox="0 0 16 16">
-              <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
-            </svg>
-          </h3>
 
-          
+          <div id="view1" class="tab-pane active container"></div>
+            <div class="row row-cols-1 row-cols-md-3 g-2">
+              <div class="col">
+                <div class="card rounded-0">
+                  <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
+            
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0">
+                  <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
+            
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0">
+                  <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
+            
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0">
+                  <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
+            
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0">
+                  <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
+            
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0">
+                  <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
+            
+                </div>
+              </div>
+            
+            </div>
+          </div>   
           
       <!-- Aquí hauria d'incloure tot el contingut de la primera part de les fotos en 3 columenes, però ho he provat i no funciona, no es veu res. -->
       
         </div>
-        <div id="menu1" class="tab-pane fade">
-          <h3>Menu 1</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div id="view2" class="tab-pane fade">
+          
         </div>
+
+        <div class="d-flex flex-column gap-3 align-items-center my-5">
+          <div class="card maxsize">
+            <div class="p-1 d-flex justify-content-between">
+              <div>
+                <h5 class="card-title m-0">Photo</h5>
+              </div>
+              <div>
+                <p class="m-0 date">08/26</p>
+              </div>
+            </div>
+            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="Diferent images">
+            <div class="card-body px-1 pb-4">
+              <h6 class="fw-bold">204 Likes</h6>
+              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+            </div>
+          </div>
+          <div class="card maxsize">
+            <div class="p-1 d-flex justify-content-between">
+              <div>
+                <h5 class="card-title m-0">Photo</h5>
+              </div>
+              <div>
+                <p class="m-0 date">08/26</p>
+              </div>
+            </div>
+            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="Diferent images">
+            <div class="card-body px-1 pb-4">
+              <h6 class="fw-bold">204 Likes</h6>
+              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+            </div>
+          </div>
+          <div class="card maxsize">
+            <div class="p-1 d-flex justify-content-between">
+              <div>
+                <h5 class="card-title m-0">Photo</h5>
+              </div>
+              <div>
+                <p class="m-0 date">08/26</p>
+              </div>
+            </div>
+            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="Diferent images">
+            <div class="card-body px-1 pb-4">
+              <h6 class="fw-bold">204 Likes</h6>
+              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+            </div>
+          </div>
       
       </div>
     </div>
 
 
-    <div class="d-flex flex-column gap-3 align-items-center my-5">
-      <div class="card maxsize">
-        <div class="p-1 d-flex justify-content-between">
-          <div>
-            <h5 class="card-title m-0">Photo</h5>
-          </div>
-          <div>
-            <p class="m-0 date">08/26</p>
-          </div>
-        </div>
-        <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="Diferent images">
-        <div class="card-body px-1 pb-4">
-          <h6 class="fw-bold">204 Likes</h6>
-          <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-        </div>
-      </div>
-      <div class="card maxsize">
-        <div class="p-1 d-flex justify-content-between">
-          <div>
-            <h5 class="card-title m-0">Photo</h5>
-          </div>
-          <div>
-            <p class="m-0 date">08/26</p>
-          </div>
-        </div>
-        <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="Diferent images">
-        <div class="card-body px-1 pb-4">
-          <h6 class="fw-bold">204 Likes</h6>
-          <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-        </div>
-      </div>
-      <div class="card maxsize">
-        <div class="p-1 d-flex justify-content-between">
-          <div>
-            <h5 class="card-title m-0">Photo</h5>
-          </div>
-          <div>
-            <p class="m-0 date">08/26</p>
-          </div>
-        </div>
-        <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="Diferent images">
-        <div class="card-body px-1 pb-4">
-          <h6 class="fw-bold">204 Likes</h6>
-          <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-        </div>
-      </div>
     
-    </div>
+    
 
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 g-2">
-        <div class="col">
-          <div class="card rounded-0">
-            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
-      
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-0">
-            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
-      
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-0">
-            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
-      
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-0">
-            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
-      
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-0">
-            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
-      
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-0">
-            <img class="rounded-0" src="https://picsum.photos/300" class="card-img-top" alt="photos">
-      
-          </div>
-        </div>
-      
-      </div>
-    </div>
+
+    
     
 
 
